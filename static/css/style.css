@@ -1,0 +1,111 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+html,
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right top, #0f2027, #12252c, #152931, #192e37, #1c333c, #1e3741, #213c46, #23404b, #254551, #274957, #2a4e5e, #2c5364);
+}
+
+.container {
+  background-color: rgba(255, 253, 253, 0.5);
+  padding: 10px;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 darkgrey;
+}
+
+form {
+  position: absolute;
+  margin-top: 110px;
+  transition: .5s;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.title{
+  margin-top: 30px;
+  align-items: center;
+}
+
+.buttonsForm {
+  margin-top: 80px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 0 rgb(13, 13, 14);
+  
+}
+
+
+.buttonsForm button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding: 10px 29px;
+
+}
+
+.btnColor {
+  position: absolute;
+  width: 108px;
+  height: 100%;
+  background: linear-gradient(to right, #5956e9, #4B4453);
+  border-radius: 10px;
+  transition: .4s;
+}
+
+input[type="text"], input[type="password"],input[type ='phone'] {
+  box-shadow: 10px 0 20px 0 #4B4453;
+  border: 3px solid #70667c;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 8px 0 8px 35px;
+  outline: none;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background: #5956e9;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 15px;
+  font-size: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #4643f16e;
+  color: #fcfcfc; 
+  transition: background-color 0.5s;
+}
+
+#signin {
+  left: 25px;
+  
+}
+
+#signup {
+  left: 450px;
+}
