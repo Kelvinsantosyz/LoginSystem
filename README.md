@@ -41,6 +41,13 @@ This is a simple login page built using Django, a Python web framework. It allow
 - This is a basic implementation of a login page and may not include all the necessary security features for a production-ready application. Additional security measures, such as encryption, should be implemented.
 - The social media links in the code are currently pointing to placeholder URLs and should be updated with the appropriate links.
 
+## Example
+
+
+https://github.com/Kelvinsantosyz/LoginSystem/assets/109118257/c6a92ed9-fc9e-423f-af77-9cfc03f49a00
+
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
